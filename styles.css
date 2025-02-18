@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    background-color: antiquewhite;
+    
+}
+
+body {
+    background-color: #fff8f0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #552063;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #190d37;
+}
+
+h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bigtext {
+    color: #331E6A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20 32px 20px;
+}
+
+.hero-img-width {
+    width: 50%;
+}
+
+#hero-img {
+    width: 100%;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.smalltext {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+
+
+}
+
+#contact-button {
+    height: 44px;
+    width: 138px;
+    background-color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+#contact-button:hover {
+    height: 44px;
+    width: 138px;
+    background-color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 48px auto;
+
+}
+
+.overtitle {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #2858FF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    text-align: center;
+    margin: 8px auto 8px auto;
+
+}
+
+#pricing-boxes {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.pricing-box {
+    width: 33.33%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+/* .pricing-box:hover {
+    width: 33.33%;
+    background-color:#666666;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+} */
+
+.pricing-card {
+    background-color: #ffffff; 
+    margin: 0 10px;
+
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858FF;
+    padding-left: 5px;
+    padding-top: 5PX;
+
+}
+
+.price {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    columns: #000000;
+}
+
+.price-per-page {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8A8A8A;
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: #8A8A8A;
+    margin-top: 8px;
+
+}
+
+.service-benefits {
+    padding: 0;
+    list-style: unset;
+    list-style: none;
+
+
+}
+
+.service-benefits li {
+    font-family: Poppins;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+.service-contact-button {
+    width: 100%;
+    /* padding: 12px; */
+    height: 44px;
+    border-radius: 4px;
+    border-width: 2px #2f2f2f;
+    background-color: white;
+    color: #2F2F2F;
+    font-family: Inter;
+    /* margin-bottom: 8px; */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.service-contact-button:hover {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.pricing-card.card-2 {
+    background-color: #ffd748;border-radius: 5px;
+}
+
+.card-2 .service {
+    color: #000000;
+}
+.card-2 li{
+    color: #000000BF;
+}
+.card-2 .service-description{
+    color: #00000080;
+}
+.card-2 .price-per-page{
+    color: #00000080;
+}
+.card-2 .service-contact-button:hover{
+    align-items: #FFFFFF;
+    columns: #2F2F2F;
+  
+}#footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 48px;
+font-family: Poppins;
+color: #FFFFFF;
+}
